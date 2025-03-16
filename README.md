@@ -71,6 +71,38 @@ Compile and run `PaymentGatewayApp.java`. Choose a payment method and complete a
 
 ---
 
+## 3. Coffee Shop Simulator
+### Description
+A customizable coffee ordering system where users can select coffee types and add toppings.
+
+### Features
+- **Factory Method Pattern:** Creates coffee objects dynamically.
+- **Decorator Pattern:** Allows adding multiple toppings dynamically.
+
+### Project Structure
+```
+src/
+│── com/coffee/
+│   ├── coffee/  # Factory method for coffee types
+│   │   ├── Coffee.java
+│   │   ├── Espresso.java
+│   │   ├── Latte.java
+│   │   ├── Cappuccino.java
+│   │   ├── CoffeeFactory.java
+│   ├── decorator/  # Decorator pattern for add-ons
+│   │   ├── CoffeeDecorator.java
+│   │   ├── MilkDecorator.java
+│   │   ├── CaramelDecorator.java
+│   │   ├── ChocolateDecorator.java
+│   ├── main/  # Entry point
+│   │   ├── CoffeeShopApp.java
+```
+
+### How to Run
+Compile and run `CoffeeShopApp.java`. Select a coffee type and choose toppings to customize your order.
+
+---
+
 
 
 
