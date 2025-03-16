@@ -42,4 +42,35 @@ Compile and run `SmartHomeSystem.java`. The program will demonstrate adding and 
 
 ---
 
+## 2. Online Payment Gateway
+### Description
+A secure payment gateway supporting different payment methods using the strategy pattern.
+
+### Features
+- **Strategy Pattern:** Supports multiple payment methods dynamically.
+- **Factory Pattern:** Creates different payment processors.
+- **Secure Transaction Handling:** Ensures safe payments.
+
+### Project Structure
+```
+src/
+│── com/paymentgateway/
+│   ├── strategy/  # Strategy pattern implementation
+│   │   ├── PaymentStrategy.java
+│   │   ├── CreditCardPayment.java
+│   │   ├── PayPalPayment.java
+│   │   ├── CryptocurrencyPayment.java
+│   ├── factory/  # Factory pattern for payment processors
+│   │   ├── PaymentProcessorFactory.java
+│   ├── main/  # Entry point
+│   │   ├── PaymentGatewayApp.java
+```
+
+### How to Run
+Compile and run `PaymentGatewayApp.java`. Choose a payment method and complete a transaction.
+
+---
+
+
+
 
