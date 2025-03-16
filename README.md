@@ -2,8 +2,8 @@
 
 ## Overview
 This project consists of three separate assignments implemented using Java:
-1. **Smart Home Control System** - Implements composite, adapter, and facade design patterns.
-2. **Online Payment Gateway** - Implements strategy and factory patterns for secure transactions.
+1. **Smart Home Control System** - Implements composite, adapter, decorator, factory and facade design patterns.
+2. **Online Payment Gateway** - Implements adapter and factory patterns for secure transactions.
 3. **Coffee Shop Simulator** - Implements factory method and decorator patterns for customizable coffee orders.
 
 Each system is structured into separate packages, ensuring modularity and maintainability.
